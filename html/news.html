@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../Styles/slidebar.css">
+    <link rel="stylesheet" href="../Styles/news.css">
+    <title>News</title>
+</head>
+
+<body>
+    <div id="slide_div">
+
+    </div>
+    <div id="news_page">
+
+    </div>
+    <script src="../Scripts/news.js"></script>
+</body>
+
+</html>
+<script type="module">
+
+    import showSlideBar from "../Componants/slide.js"
+    var Slid_div = document.getElementById("slide_div");
+    Slid_div.innerHTML = showSlideBar()
+    document.body.prepend(Slid_div);
+</script>

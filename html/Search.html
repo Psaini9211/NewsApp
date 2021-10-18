@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../Styles/slidebar.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <div id="slide_div">
+
+    </div>
+
+</body>
+
+</html>
+<script type="module">
+
+    import showSlideBar from "../Componants/slide.js"
+    var Slid_div = document.getElementById("slide_div");
+    Slid_div.innerHTML = showSlideBar()
+    document.body.prepend(Slid_div);
+</script>
