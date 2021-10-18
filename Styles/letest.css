@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#letest {
+  width: 80%;
+  height: 650px;
+  margin-left: 20%;
+  overflow-x: scroll;
+}
+.content_div {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  margin-top: 40px;
+  cursor: pointer;
+}
+.news_div {
+  width: 60%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.content_div div img {
+  width: 300px;
+}
+.title_div p {
+  margin-top: 7px;
+}
+.content_div:hover {
+  color: grey;
+}
